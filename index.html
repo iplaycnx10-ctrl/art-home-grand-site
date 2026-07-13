@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071522">
+  <meta name="description" content="Art Home Grand ออกแบบและสร้างบ้านหรูที่สะท้อนตัวตนของคุณ">
+  <title>Art Home Grand — Bespoke Luxury Residences</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Sans+Thai:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <a class="brand" href="#top" aria-label="Art Home Grand หน้าแรก"><img src="assets/logo.png" alt="Art Home Grand"></a>
+    <button class="menu" aria-label="เปิดเมนู" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="เมนูหลัก">
+      <a href="#top">หน้าแรก</a><a href="#catalog">แบบบ้าน</a><a href="#services">บริการ</a><a href="#process">ขั้นตอน</a><a href="#contact">ติดต่อเรา</a>
+    </nav>
+    <a class="outline-btn header-cta" href="#consult">นัดหมายปรึกษา</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg"></div><div class="hero-shade"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">BESPOKE LUXURY RESIDENCES</p>
+        <h1>A HOME,<br>COMPOSED<br>FOR YOUR LIFE.</h1>
+        <p class="thai-lead">ออกแบบและสร้างบ้านหรู ที่สะท้อนตัวตนของคุณ</p>
+        <p class="muted">ครบทุกขั้นตอน ตั้งแต่แนวคิดสู่บ้านที่สมบูรณ์แบบ</p>
+        <div class="hero-actions"><a class="gold-btn" href="#catalog">ชมแคตตาล็อกบ้าน <span>→</span></a><a class="text-btn" href="#consult">ปรึกษาสถาปนิก <span>→</span></a></div>
+      </div>
+      <form class="lead-card reveal" id="leadForm">
+        <p class="eyebrow">PRIVATE CONSULTATION</p><h2>เริ่มต้นบ้านในฝันของคุณ</h2>
+        <label>ชื่อ–นามสกุล<input name="name" required autocomplete="name"></label>
+        <label>เบอร์โทรศัพท์<input name="phone" required inputmode="tel" autocomplete="tel"></label>
+        <label>งบประมาณโดยประมาณ<select name="budget"><option>ยังไม่ระบุ</option><option>5–10 ล้านบาท</option><option>10–20 ล้านบาท</option><option>20 ล้านบาทขึ้นไป</option></select></label>
+        <button class="gold-btn" type="submit">ให้ผู้เชี่ยวชาญติดต่อกลับ</button><p class="form-note" aria-live="polite"></p>
+      </form>
+      <a class="scroll" href="#catalog">เลื่อนเพื่อสำรวจ <span>↓</span></a>
+    </section>
+
+    <section class="section catalog" id="catalog">
+      <div class="section-head reveal"><div><p class="eyebrow">SIGNATURE COLLECTION</p><h2>แบบบ้านที่คัดสรร</h2></div><p>ค้นพบแนวทางการอยู่อาศัยที่ออกแบบอย่างพิถีพิถัน ปรับรายละเอียด ฟังก์ชัน และพื้นที่ให้เหมาะกับครอบครัวของคุณได้</p></div>
+      <div class="filters" role="group" aria-label="กรองแบบบ้าน"><button class="active" data-filter="all">ทั้งหมด</button><button data-filter="2">2 ชั้น</button><button data-filter="3">3 ชั้น</button><button data-filter="large">พื้นที่ 500+ ตร.ม.</button></div>
+      <div class="homes">
+        <article class="home-card reveal" data-floor="2" data-size="420"><button class="card-open" data-home="Aurelia"><img src="assets/house-aurelia.png" alt="แบบบ้าน The Aurelia"><span class="card-overlay"><small>CONTEMPORARY RESIDENCE</small><strong>The Aurelia</strong><em>420 ตร.ม. · 4 ห้องนอน · 5 ห้องน้ำ</em></span></button></article>
+        <article class="home-card reveal" data-floor="2" data-size="560"><button class="card-open" data-home="Nara"><img src="assets/house-nara.png" alt="แบบบ้าน The Nara"><span class="card-overlay"><small>MODERN THAI RESIDENCE</small><strong>The Nara</strong><em>560 ตร.ม. · 5 ห้องนอน · 6 ห้องน้ำ</em></span></button></article>
+        <article class="home-card reveal" data-floor="3" data-size="680"><button class="card-open" data-home="Maison"><img src="assets/house-maison.png" alt="แบบบ้าน The Maison"><span class="card-overlay"><small>SCULPTURAL VILLA</small><strong>The Maison</strong><em>680 ตร.ม. · 6 ห้องนอน · 7 ห้องน้ำ</em></span></button></article>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-head reveal"><div><p class="eyebrow">THE ART OF BUILDING</p><h2>บริการครบ จบในที่เดียว</h2></div><p>ทีมสถาปนิก วิศวกร และผู้เชี่ยวชาญดูแลทุกขั้นตอน ภายใต้มาตรฐานคุณภาพและความโปร่งใส</p></div>
+      <div class="service-grid">
+        <article><b>01</b><h3>ออกแบบเฉพาะคุณ</h3><p>วิเคราะห์ไลฟ์สไตล์ ที่ดิน และความต้องการ เพื่อสร้างบ้านที่เป็นคุณจริง ๆ</p></article>
+        <article><b>02</b><h3>สำรวจและวางแผน</h3><p>สำรวจหน้างาน ประเมินงบประมาณ และกำหนดแผนงานอย่างเป็นระบบ</p></article>
+        <article><b>03</b><h3>ก่อสร้างมาตรฐานสูง</h3><p>ควบคุมคุณภาพทุกขั้นตอน พร้อมรายงานความคืบหน้าอย่างสม่ำเสมอ</p></article>
+        <article><b>04</b><h3>ดูแลหลังส่งมอบ</h3><p>ตรวจรับอย่างละเอียดและดูแลหลังการขาย เพื่อความมั่นใจระยะยาว</p></article>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="process-copy reveal"><p class="eyebrow">OUR PROCESS</p><h2>จากความฝัน<br>สู่บ้านที่สมบูรณ์แบบ</h2><p>เราเชื่อว่าบ้านที่ดีเริ่มจากการรับฟัง กระบวนการของเราจึงชัดเจน โปร่งใส และให้คุณมีส่วนร่วมทุกจังหวะสำคัญ</p><a class="text-btn" href="#consult">เริ่มพูดคุยกับเรา →</a></div>
+      <ol><li><span>01</span><div><b>พูดคุยและวิเคราะห์</b><p>รับฟังไลฟ์สไตล์ งบประมาณ และวิสัยทัศน์</p></div></li><li><span>02</span><div><b>ออกแบบและประมาณราคา</b><p>พัฒนาแนวคิด แบบ และขอบเขตงานที่ชัดเจน</p></div></li><li><span>03</span><div><b>ก่อสร้างและควบคุมคุณภาพ</b><p>บริหารงานโดยทีมมืออาชีพ พร้อมติดตามทุกขั้นตอน</p></div></li><li><span>04</span><div><b>ส่งมอบและดูแล</b><p>ตรวจรับอย่างละเอียด พร้อมบริการหลังการขาย</p></div></li></ol>
+    </section>
+
+    <section class="consult section" id="consult">
+      <div class="consult-copy reveal"><p class="eyebrow">LET'S CREATE YOUR HOME</p><h2>พร้อมเริ่มต้นบ้านในฝันของคุณหรือยัง?</h2><p>นัดหมายพูดคุยกับทีม Art Home Grand ฟรี ไม่มีค่าใช้จ่าย</p><div class="contact-actions"><a class="gold-btn" href="tel:0649301949">โทร 064-930-1949</a><a class="line-btn" href="https://line.me/R/ti/p/~@arthomeofficial" target="_blank" rel="noopener">LINE @arthomeofficial</a></div></div>
+      <div class="contact-art reveal"><img src="assets/contact-qr.jpg" alt="ข้อมูลติดต่อและ QR Code ของ Art Home Grand"></div>
+    </section>
+  </main>
+
+  <footer id="contact"><img src="assets/logo.png" alt="Art Home Grand"><p>คิดจะสร้างบ้านหรู คิดถึง Art Home Grand</p><div><a href="tel:0649301949">064-930-1949</a><a href="https://line.me/R/ti/p/~@arthomeofficial">@arthomeofficial</a><a href="https://arthomeanddesign.com">arthomeanddesign.com</a></div><small>© 2026 Art Home Grand. All rights reserved.</small></footer>
+
+  <dialog id="homeDialog"><button class="close" aria-label="ปิด">×</button><img alt=""><div><p class="eyebrow"></p><h2></h2><p class="desc"></p><ul></ul><a class="gold-btn" href="#consult">สนใจแบบบ้านนี้</a></div></dialog>
+  <a class="floating-line" href="https://line.me/R/ti/p/~@arthomeofficial" target="_blank" rel="noopener" aria-label="ติดต่อทาง LINE">LINE</a>
+  <script src="script.js"></script>
+</body>
+</html>
